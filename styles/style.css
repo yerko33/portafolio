@@ -255,7 +255,7 @@ body{
     /* Presentación */
     .presentacion {
         padding: 2vh 5vw;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 3rem;
         align-items: center;
     }
