@@ -228,3 +228,83 @@ body{
         width: 80%;
     }
 }
+
+/* media queries para mi celular*/ 
+
+@media (max-width: 568px) {
+    /* Ajustes generales */
+    body {
+        font-size: 1rem; /* Reducir el tamaño de fuente para pantallas pequeñas */
+    }
+
+    /* Header */
+    .header {
+        padding: 2% 5%;
+    }
+
+    .header__menu {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .header__menu__link {
+        font-size: 1.2rem;
+    }
+
+    /* Presentación */
+    .presentacion {
+        padding: 2vh 5vw;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .presentacion__contenido {
+        width: 100%;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .presentacion__contenido__titulo {
+        font-size: 1.25rem;
+    }
+
+    .presentacion__contenido__index {
+        font-size: 1rem;
+        opacity: 1;
+        transform: scale(1);
+        animation: none;
+    }
+
+    .presentacion__contenido__about {
+        font-size: 1.2rem;
+        opacity: 1;
+        transform: scale(1);
+        animation: none;
+    }
+
+    .presentacion__enlaces {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .presentacion__enlaces__link {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .presentacion__enlaces__link img {
+        width: 1.2rem;
+    }
+
+    .presentacion__imagen {
+        width: 80%;
+        border-radius: 10vw;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 1.1rem;
+    }
+}
