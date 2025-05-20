@@ -51,7 +51,7 @@ body{
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .presentacion__contenido__titulo{
@@ -83,7 +83,7 @@ body{
 }
 
 .presentacion__contenido__index{
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-family: var(--fuente-montserrat);
     opacity: 0;
     transform: scale(0.5); /* El texto inicia más pequeño */
@@ -91,7 +91,7 @@ body{
 }
 
 .presentacion__contenido__about{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-family: var(--fuente-montserrat);
     opacity: 0;
     transform: scale(0);
